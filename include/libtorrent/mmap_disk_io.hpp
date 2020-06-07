@@ -54,8 +54,8 @@ namespace libtorrent {
 
 enum
 {
-	// every 4:th thread is a hash thread
-	hasher_thread_divisor = 4
+	// every 3:rd thread is a hash thread
+	hasher_thread_divisor = 3
 };
 
 }

@@ -317,7 +317,7 @@ namespace libtorrent {
 		DEPRECATED_SET(hashing_threads, 1, nullptr),
 		SET(checking_mem_usage, 256, nullptr),
 		SET(predictive_piece_announce, 0, nullptr),
-		SET(aio_threads, 4, &session_impl::update_disk_threads),
+		SET(aio_threads, 8, &session_impl::update_disk_threads),
 		DEPRECATED_SET(aio_max, 300, nullptr),
 		DEPRECATED_SET(network_threads, 0, nullptr),
 		DEPRECATED_SET(ssl_listen, 0, &session_impl::update_ssl_listen),
